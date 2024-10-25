@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Ambiente virtual
+venv/
+env/
+
+# Dados e documentos
+data/books/**
+data/documentation/*
+data/npl_datasets/*
+!data/books/.gitkeep
+!data/documentation/.gitkeep
+!data/npl_datasets/.gitkeep
+
+# Arquivos de modelo e checkpoints
+*.joblib
+content_ranker_checkpoint_*.joblib
+content_ranker_model.joblib
+
+# Banco de dados
+*.db
+content_ranker.db
+
+# Arquivos do Poetry
+poetry.lock
+
+# Logs
+*.log
+training.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
